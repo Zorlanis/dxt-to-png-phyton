@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dxt-to-png"
+version = "0.1.0"
+description = "Knight Online DXT to PNG CLI with recursive conversion, interactive prompts and JSON output"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Zorlanis"}]
+maintainers = [{name = "Zorlanis"}]
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["Pillow==13.0.0"]
+keywords = ["knight-online", "dxt", "ntf", "png", "texture", "cli", "batch", "automation"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+dxt2png = "dxt2png:main"
+
+[tool.setuptools]
+py-modules = ["dxt2png"]
+include-package-data = false
