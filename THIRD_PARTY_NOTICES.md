@@ -12,7 +12,7 @@ Knight Online DXT2PNG uygulamasından uyarlanmıştır. Kaynak uygulamanın bild
 ```text
 MIT License
 
-Copyright (c) 2018 Doğan Derya
+Copyright (c) 2026 Zorlanis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
